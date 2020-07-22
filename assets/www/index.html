@@ -9,8 +9,8 @@
 <link rel="stylesheet" href="https://kkaebida.github.io/kkaebi1/assets/www/rpopup.css">
 <script src="https://kkaebida.github.io/kkaebi1/assets/www/jquery-3.1.1.min.js"></script>
 <script src="https://kkaebida.github.io/kkaebi1/assets/www/rpopup.min.js"></script>
-
-<script type='text/javascript'> (function() { if( window.localStorage ) { if( !localStorage.getItem('firstLoad') ) { localStorage['firstLoad'] = true; window.location.reload(); } else localStorage.removeItem('firstLoad'); } })(); </script>
+if (location.href.indexOf('#reload') == -1)
+  location.href += '#reload'
 <script>
     $(document).ready(function(){
         
