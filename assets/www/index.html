@@ -27,22 +27,7 @@
 
     });
 	</scrip>
-<style>
-    .loading {
-border:none !important;
-position: fixed;
-  z-index: 1;
-  width:60px;
-  height:60px;
-  overflow: show;
-  margin: auto;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  display:none;
- }
-</style>
+
 <script>
     $(function() {
         $(window).scroll(function() {
@@ -80,12 +65,9 @@ a#MOVE_TOP_BTN {
 	
 <div data-role=page data-position=fixed data-theme=c data-url=news id=AllNews>
     <div data-role=content>
-        <div id="loader" class="loading"><img src="https://kkaebida.github.io/kkaebi1/assets/www/images/loading.gif" style="width:60px; border:none !important;opacity:0.8;"/></div>
-
-    
+       
         <ul data-filter=true data-filter-placeholder="차량번호나 성명 입력!" data-role=listview id=NewsList>
 		
-
 		<li data-role=list-divider><h3 align=center>1층 생산팀</h3></li>
 <li><a href=# onclick='showLoading();window.location.href=""'  data-transition=none>1층/생산/김창균/0167</a>
 <li><a href=# onclick='showLoading();window.location.href=""'  data-transition=none>1층/생산/이은정/0452</a>
