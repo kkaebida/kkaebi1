@@ -9,6 +9,14 @@
 <link rel="stylesheet" href="rpopup.css">
 <script src=jquery-3.1.1.min.js></script>
 <script src=rpopup.min.js></script>
+	
+	<script>
+	window.onload = function(){
+    if (location.href.indexOf('reloaded')==-1) location.replace(location.href+'?reloaded');
+    //if (parent.location.href.indexOf('reloaded')==-1) parent.location.replace(parent.location.href+'?reloaded');
+}
+	</script>
+		
 	<script>
     $(document).ready(function(){
         
