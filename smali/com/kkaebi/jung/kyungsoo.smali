@@ -340,7 +340,7 @@
 
     invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const-string v0, "https://app.box.com/s/zeozh67v8s3v1d665vqq2gdx42asvf4x"
+    const-string v0, "https://app.box.com/s/xvf16xyb4e8a9u0qzhjrfceq1d9yy5i7"
 
     invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
