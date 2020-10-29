@@ -24,7 +24,7 @@
 .rPopup_footer label{display:inline-block; vertical-align:middle; cursor:pointer;}
 .rPopup_footer label input{ transform:scale(1.2); }
 .rPopup_footer label span{ padding:0 5px; font-size:16px; }
-.rPopup_footer button{ display:inline-block; vertical-align:middle; border:1px solid #ced4da; background:#FAF4C0; padding:5px 7px; border-radius:5px; cursor:pointer; }
+.rPopup_footer button{ display:inline-block; vertical-align:middle; border:1px solid #FFE61F; background:#FAF4C0; padding:5px 7px; border-radius:5px; cursor:pointer; }
 
 /* mobile */
 .rPopup_mobile{position:fixed; left:0!important; right:0!important; top:0!important; bottom:0!important; background:rgba(0,0,0,0.7)!important; 
