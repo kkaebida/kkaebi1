@@ -304,7 +304,7 @@
 
     move-result-object v0
 
-    const-string v1, "file:///android_asset/www/index.html"
+    const-string v1, "https://kkaebida.github.io/kkaebi1/assets/www/index.html"
 
     invoke-virtual {v0, v1}, Ljava/lang/String;->matches(Ljava/lang/String;)Z
 
@@ -455,8 +455,7 @@
 
     move-result-object p1
 
-    const-string v4, "file:///android_asset/www/index.html"
-
+    const-string v4, "https://kkaebida.github.io/kkaebi1/assets/www/index.html
     invoke-virtual {p1, v4}, Ljava/lang/String;->matches(Ljava/lang/String;)Z
 
     move-result p1
