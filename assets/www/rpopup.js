@@ -38,7 +38,7 @@ $.rpopup = function(op){
                     footerBar : true, //ok
                     headerText : "", //ok
                     footerText : "오늘 하루 팝업창 안보기", //ok
-                    buttonText : "CLOSE", //ok
+                    buttonText : "닫기", //ok
                     responsive : undefined, //ok
                     responsiveMaxWidth : undefined //ok
                 }
