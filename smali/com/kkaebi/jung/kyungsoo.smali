@@ -244,7 +244,7 @@
 
     invoke-direct {v0, v1}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
-    const-string v1, "https://kkaebi-jung.tistory.com/guestbook"
+    const-string v1, "https://kkaeb01.tistory.com/guestbook"
 
     .line 183
     invoke-static {v1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
