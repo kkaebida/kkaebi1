@@ -22,7 +22,7 @@
 /*footerBar*/
 .rPopup_footer{position:relative; background:#FFF9A3; text-align:right; padding:4px; overflow:hidden;}
 .rPopup_footer label{display:inline-block; vertical-align:middle; cursor:pointer;}
-.rPopup_footer label input{ transform:scale(1.4); }
+.rPopup_footer label input{ transform:scale(1.4); background:rgba(0,0,0,0.7);}
 .rPopup_footer label span{ padding:0 4px; font-size:14px; }
 .rPopup_footer button{ display:inline-block; vertical-align:middle; border:1px solid #FFE61F; background:#FFE400; padding:3px 5px; border-radius:5px; cursor:pointer; }
 
