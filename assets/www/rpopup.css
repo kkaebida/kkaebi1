@@ -23,7 +23,7 @@
 .rPopup_footer{position:relative; background:#FFF9A3; text-align:right; padding:4px; overflow:hidden;}
 .rPopup_footer label{display:inline-block; vertical-align:middle; cursor:pointer;}
 .rPopup_footer label input{ transform:scale(1.3); }
-.rPopup_footer label span{ padding:0 1px; font-size:14px; }
+.rPopup_footer label span{ padding:2px 3px; font-size:14px; }
 .rPopup_footer button{ display:inline-block; vertical-align:middle; border:1px solid #FFE61F; background:#FFE400; padding:3px 5px; border-radius:5px; cursor:pointer; }
 
 /* mobile */
