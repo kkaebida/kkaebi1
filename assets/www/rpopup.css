@@ -20,7 +20,7 @@
 .rPopupMobileImg{ display:none; }
 
 /*footerBar*/
-.rPopup_footer{position:relative; background:#FFF9A3; text-align:right; padding:1px; overflow:hidden;}
+.rPopup_footer{position:relative; background:#FFF9A3; text-align:right; padding:1.5px; overflow:hidden;}
 .rPopup_footer label{display:inline-block; vertical-align:middle; cursor:pointer;}
 .rPopup_footer label input{ transform:scaley(0.3); }
 .rPopup_footer label span{ padding:0 5px; font-size:15px; }
