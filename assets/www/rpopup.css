@@ -19,15 +19,15 @@
 .rPopup_body img{vertical-align:top;}
 .rPopupMobileImg{ display:none; }
 /*footerBar*/
-.rPopup_footer{position:relative; background:rgba(0,0,0,0.0); text-align:right; padding:5px; overflow:hidden;}
+.rPopup_footer{position:relative; background:rgba(0,0,0,0.0.5); text-align:right; padding:5px; overflow:hidden;}
 .rPopup_footer label{display:inline-block; vertical-align:middle; cursor:pointer;}
 .rPopup_footer label input{ transform:scale(1.2);  opacity: 0.3; }
 .rPopup_footer label span{ padding:0 5px; font-size:16px; }
-.rPopup_footer button{ display:inline-block; vertical-align:middle; border:0px solid #ced4da; background:rgba(0,0,0,0.0); padding:5px 7px; border-radius:5px; cursor:pointer; }
+.rPopup_footer button{ display:inline-block; vertical-align:middle; border:0px solid #ced4da; background:rgba(0,0,0,0.0.8); padding:5px 7px; border-radius:5px; cursor:pointer; }
 
 
 /* mobile */
-.rPopup_mobile{position:fixed; left:0!important; right:0!important; top:0!important; bottom:0!important; background:rgba(0,0,0,0.7)!important; 
+.rPopup_mobile{position:fixed; left:0!important; right:0!important; top:0!important; bottom:0!important; background:rgba(0,0,0,0.0)!important; 
    padding:0 15px; text-align:center; font-size:0; pointer-events:none;}
 .rPopup_mobile:before{content:''; display:inline-block; width:0; height:100%; vertical-align:middle; }
 .rPopup_mobile .rPopup_wrap{ display:inline-block; vertical-align:middle; }
