@@ -23,12 +23,12 @@
 .rPopup_footer{position:relative; background:rgba(0,0,0,0); text-align:center; padding:10px; overflow:hidden;}
 .rPopup_footer label{display:inline-block; vertical-align:middle; cursor:pointer;}
 .rPopup_footer label input{ transform:scale(1.4); opacity:0.8; margin-top:5px;}
-.rPopup_footer label span{ display:inline-block; padding:0 5px; font-size:18px; color:#ffffff; }
+.rPopup_footer label span{ display:inline-block; padding:0 7px; font-size:18px; color:#ffffff; }
 .rPopup_footer button{ display:inline-block; vertical-align:middle; border:0px solid #ced4da; background:rgba(0,0,0,0.0); padding:5px 7px; margin-top:3px; border-radius:5px; cursor:pointer;
  font-size:18px; color:#ffffff; }
 
 /* mobile */ 
-.rPopup_mobile{position:fixed; left:0!important; right:0!important; top:0!important; bottom:0!important; background:rgba(0,0,0,0.7)!important; 
+.rPopup_mobile{position:fixed; left:0!important; right:0!important; top:0!important; bottom:0!important; background:rgba(0,0,0,0.9)!important; 
    padding:0 15px; text-align:center; font-size:0; pointer-events:none; }
 .rPopup_mobile:before{content:''; display:inline-block; width:0; height:100%; vertical-align:middle; }
 .rPopup_mobile .rPopup_wrap{ display:inline-block; vertical-align:middle; }
