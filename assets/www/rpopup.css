@@ -24,7 +24,7 @@
 .rPopup_footer label{display:inline-block; vertical-align:middle; cursor:pointer;}
 .rPopup_footer label input{ transform:scale(1.4); opacity:0.8; margin-top:5px;}
 .rPopup_footer label span{ display:inline-block; padding:0 5px; font-size:18px; color:#050099; font-weight:900; display:inline; }
-.rPopup_footer button{ display:inline-block; vertical-align:middle; border:0px solid #ced4da; background:rgba(0,0,0); padding:5px 7px; margin-top:3px; border-radius:5px; cursor:pointer;
+.rPopup_footer button{ display:inline-block; vertical-align:middle; border:0px solid #ced4da; background:rgba(0,0,0,0); padding:5px 7px; margin-top:3px; border-radius:5px; cursor:pointer;
  font-size:18px; font-weight:900;}
 
 /* mobile */ 
