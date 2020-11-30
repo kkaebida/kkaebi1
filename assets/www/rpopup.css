@@ -6,7 +6,7 @@
 .rPopup_wrap button{background:none; outline:none; border:none;}
 
 /*headerBar*/
-.rPopup_header{position:relative; height:33px; background:#f1f3f5; cursor:move; overflow:hidden; }
+.rPopup_header{position:relative; height:0px; background:#f1f3f5; cursor:move; overflow:hidden; }
 .rPopup_header>h3{position:absolute; left:0; right:0; top:0; bottom:0; z-index:7; text-align:left;
                   box-sizing:border-box; padding:0 30px 0 7px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
 .rPopup_header>h3:before{content:''; width:0; height:100%; display:inline-block; vertical-align:middle;}
@@ -19,7 +19,7 @@
 .rPopup_body img{vertical-align:top;}
 .rPopupMobileImg{ display:none; }
 /*footerBar*/
-.rPopup_footer{position:relative; background:#f1f3f5; text-align:right; padding:5px; overflow:hidden;}
+.rPopup_footer{position:relative; background:#e5d85c; text-align:right; padding:5px; overflow:hidden;}
 .rPopup_footer label{display:inline-block; vertical-align:middle; cursor:pointer;}
 .rPopup_footer label input{ transform:scale(1.2); }
 .rPopup_footer label span{ padding:0 5px; font-size:16px; }
