@@ -1,4 +1,4 @@
-ㄷ*{margin:0; padding:0;}
+*{margin:0; padding:0;}
         
 /*=== Responsive Popup ===*/
 .rPopup{position:absolute; left:30px; top:30px; z-index:9998; box-sizing:border-box; -ms-user-select:none; -webkit-user-select:none; user-select:none; display:none;}
