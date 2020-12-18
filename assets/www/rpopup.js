@@ -37,7 +37,7 @@ $.rpopup = function(op){
                     positionLeft : undefined,
                     footerBar : true, //ok
                     headerText : "", //ok
-                    footerText : "7일간 팝업창 안보기", //ok
+                    footerText : "하루동안 팝업창 안보기", //ok
                     buttonText : "닫기", //ok
                     responsive : undefined, //ok
                     responsiveMaxWidth : undefined //ok
