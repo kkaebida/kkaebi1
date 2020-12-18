@@ -237,7 +237,7 @@ $.rpopup = function(op){
             var $elm = $(this).closest('.rPopup');
             
             var index = $elm.data('idx');
-            if($elm.find(".popupChk").is(":checked")){ setCookie( "rPopup"+index, index , 1 ); }
+            if($elm.find(".popupChk").is(":checked")){ setCookie( "rPopup"+index, index , 7 ); }
             
             $elm.remove();
             $('.rPopup').eq(0).show();
