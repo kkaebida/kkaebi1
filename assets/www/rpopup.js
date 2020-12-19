@@ -32,7 +32,7 @@ $.rpopup = function(op){
                     mobile_imgSrc : undefined,  //ok       
                     htmlCode : undefined, //ok
                     linkHref : undefined, //ok
-                    linkTarget : undefined, //ok
+                    linkTarget : _blank, //ok
                     positionTop : undefined, 
                     positionLeft : undefined,
                     footerBar : true, //ok
@@ -237,7 +237,7 @@ $.rpopup = function(op){
             var $elm = $(this).closest('.rPopup');
             
             var index = $elm.data('idx');
-            if($elm.find(".popupChk").is(":checked")){ setCookie( "rPopup"+index, index , 7 ); }
+            if($elm.find(".popupChk").is(":checked")){ setCookie( "rPopup"+index, "done" , 7 ); }
             
             $elm.remove();
             $('.rPopup').eq(0).show();
