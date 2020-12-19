@@ -32,7 +32,7 @@ $.rpopup = function(op){
                     mobile_imgSrc : undefined,  //ok       
                     htmlCode : undefined, //ok
                     linkHref : undefined, //ok
-                    linkTarget : undefined, //ok
+                    linkTarget : "_blank", //ok
                     positionTop : undefined, 
                     positionLeft : undefined,
                     footerBar : true, //ok
