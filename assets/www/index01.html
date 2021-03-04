@@ -251,7 +251,7 @@ a#MOVE_TOP_BTN {
    var exitApp = !1,
         intval = setInterval(function() {
             exitApp = !1
-        }, 3500);
+        }, 1500);
         document.addEventListener("backbutton", function(t) {
         t.preventDefault(), exitApp ? clearInterval(intval)(navigator.app && navigator.app.exitApp()) || device && device.exitApp() : (exitApp = !0, window.scrollTo(0, 0), exitToast())
     }, !1);
