@@ -244,14 +244,28 @@ a#MOVE_TOP_BTN {
         t.click(e), t.appendTo($.mobile.pageContainer).delay(1e3), t.fadeOut(400, e)
     }
 
- 
+          function showLoading() {
+        document.getElementById("loader").style.display="block";
+        }
+
+    function toTop() {
+        window.scrollTo(0, 0)
+    }
+$("#send").on("click", function() {
+        var e = $("#NewsList").prev("form").find("input").val();
+        t = null !== e && "" !== e ? "https://www.google.com/search?q=" + e : "https://google.com", window.open(t)
+    })
+    $("#sendNews").on("click", function() {
+        var e = $("#NewsList").prev("form").find("input").val();
+        t = null !== e && "" !== e ? "https://www.news.google.com/search?q=" + e : "https://news.google.com", window.open(t)
+    })
 </script>
 <script src=cordova.js></script>
 <script>
    var exitApp = !1,
         intval = setInterval(function() {
             exitApp = !1
-        }, 1500);
+        }, 3500);
         document.addEventListener("backbutton", function(t) {
         t.preventDefault(), exitApp ? clearInterval(intval)(navigator.app && navigator.app.exitApp()) || device && device.exitApp() : (exitApp = !0, window.scrollTo(0, 0), exitToast())
     }, !1);
