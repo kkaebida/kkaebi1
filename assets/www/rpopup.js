@@ -230,8 +230,8 @@ $.rpopup = function(op){
     
         //=== mousedown & click & selectstart & dragstart ===
         $('.rPopup').mousedown(function(){
-            $('.rPopup').css({"z-index":1});
-            $(this).css({"z-index":1});
+            $('.rPopup').css({"z-index":9999});
+            $(this).css({"z-index":9999});
         }).on("selectstart dragstart", function(){ return false; 
         }).find('button').click(function(){
             var $elm = $(this).closest('.rPopup');
