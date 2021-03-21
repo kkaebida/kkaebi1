@@ -28,7 +28,7 @@
 
 
 /* mobile */
-.rPopup_mobile{position:fixed; left:0!important; right:0!important; top:0!important; bottom:0!important; background:rgba(0,0,0,0.7)!important; 
+.rPopup_mobile{position:fixed; left:0!important; right:0!important; top:0!important; bottom:0!important; background:rgba(0,0,0,0.9)!important; 
    padding:0 15px; text-align:center; font-size:0; pointer-events:none;}
 .rPopup_mobile:before{content:''; display:inline-block; width:0; height:100%; vertical-align:middle; }
 .rPopup_mobile .rPopup_wrap{ display:inline-block; vertical-align:middle; }
