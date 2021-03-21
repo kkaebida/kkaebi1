@@ -20,7 +20,7 @@
 
 
 /*footerBar*/
-.rPopup_footer{position:relative; background:rgba(250,244,192,1); text-align:right; padding:3px; overflow:hidden;}
+.rPopup_footer{position:relative; background:rgba(250,244,192,0.1); text-align:right; padding:3px; overflow:hidden;}
 .rPopup_footer label{display:inline-block; vertical-align:middle; cursor:pointer;}
 .rPopup_footer label input{ transform:scale(1.2); position: relative; top:1.8px; opacity:0.4}
 .rPopup_footer label span{ padding:0 5px; font-size:16px; }
