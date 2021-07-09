@@ -20,7 +20,7 @@ $(document).ready(function(){
 
         imgSrc : "aaa.png",
 
-        mobile_imgSrc : "111.jpg",
+        mobile_imgSrc : "aaa.gif",
 
         linkHref : "",             // [String] 링크 주소.(팝업창 클릭하면, 이동할 링크 경로.)
 
@@ -81,6 +81,8 @@ a#MOVE_TOP_BTN {
 		
 		
  <li data-role=list-divider><h3 align=center>1층 생산팀</h3>
+<li><a href="index3.html" target="_blank">오늘따라 유난히 예쁘네요♥</a>
+<li><a href="#">1층/생산/배명철/0108</a>
 <li><a href="#">1층/생산/배명철/0108</a>
 <li><a href="#">1층/생산/김창균/0167</a>
 <li><a href="#">1층/생산/이은정/0452</a>
@@ -226,18 +228,18 @@ a#MOVE_TOP_BTN {
 
 <script>
     function exitToast() {
-        var t = $('<div class="ui-loader ui-overlay-shadow ui-body-e ui-corner-all" style="font-family:Dosis;font-size:15px">한번 더누르시면 종료됩니다</div>');
+        var t = $('<div class="ui-loader ui-overlay-shadow ui-body-e ui-corner-all" style="font-family:Dosis;font-size:16px">한번 더누르시면 종료됩니다</div>');
         t.css({
             display: "block",
             background: "black",
             color: "white",
-            opacity: 0.4,
+            opacity: 0.7,
             position: "fixed",
             padding: "10px",
-            width: "190px",
+            width: "210px",
             "text-align": "center",
-            left: ($(window).width() - 150) / 2,
-            top: $(window).height() - 80
+            left: ($(window).width() - 180) / 2,
+            top: $(window).height() - 150
         });
         var e = function() {
             $(this).remove()

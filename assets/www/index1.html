@@ -7,7 +7,7 @@
 <script src=https://kkaebida.github.io/kkaebi1/assets/www/jquery-1.7.1.min.js></script>
 <script src=https://kkaebida.github.io/kkaebi1/assets/www/jquery.mobile-1.3.2.min.js></script>
 <link rel="stylesheet" href="https://kkaebida.github.io/kkaebi1/assets/www/rpopup.css">
-<script src="https://kkaebida.github.io/kkaebi1/assets/www/jquery-3.1.1.min.js"></script>
+<!--<script src="https://kkaebida.github.io/kkaebi1/assets/www/jquery-3.1.1.min.js"></script>-->
 <script src="https://kkaebida.github.io/kkaebi1/assets/www/rpopup.min.js"></script>
 <script src="https://kkaebida.github.io/kkaebi1/assets/www/rpopup.js"></script>
 	
@@ -95,6 +95,8 @@ a#MOVE_TOP_BTN {
 <li><a href="#">인사전략/안순용[과장]/5647</a>
 <li><a href="#">인사전략/이영락[과장]/6596</a>
 <li><a href="#">인사전략/김태미[대리]/5501</a>
+<li><a href="#">인사전략/정성호[대리]/5142</a>
+<li><a href="#">인사전략/박유빈[사원]/5141</a>
 
 <li data-role=list-divider><h3 align=center>기판운영팀</h3>
 <li><a href="#">기판운영/오승준[팀장]/6627</a>
@@ -104,6 +106,7 @@ a#MOVE_TOP_BTN {
 <li><a href="#">기판운영/김수진[과장]/6595</a>
 <li><a href="#">기판운영/정석조[대리]/6623</a>
 <li><a href="#">기판운영/장정아[과장]/5440</a>
+<li><a href="#">기판운영/오해린[과장]/5435</a>
 <li><a href="#">기판운영/권혜영[대리]/6617</a>
 <li><a href="#">기판운영/오승현[대리]/5439</a>
 <li><a href="#">기판운영/송은비[사원]/6641</a>
@@ -123,13 +126,16 @@ a#MOVE_TOP_BTN {
 <li><a href="#">시설장비/김동옥[차장]/5365</a>
 <li><a href="#">시설장비/윤택상[차장]/5560</a>
 <li><a href="#">시설장비/김경율[과장]/5662</a>
-<li><a href="#">시설장비/김기남[대리]/5665</a>
+<li><a href="#">시설장비/김기남[과장]/5665</a>
 <li><a href="#">시설장비/김수민[대리]/5684</a>
+<li><a href="#">시설장비/이재현[대리]/5365</a>
+<li><a href="#">시설장비/전수진[대리]/5660</a>
 
 <li data-role=list-divider><h3 align=center>품질관리팀</h3>
 <li><a href="#">품질관리/유병무[팀장]/5593</a>
 <li><a href="#">품질관리/이창윤[차장]/5617</a>
-<li><a href="#">품질관리/한혜숙[과장]</a>
+<li><a href="#">품질관리/한혜숙[과장]/5675</a>
+<li><a href="#">품질관리/이상화[과장]/5590</a>
 
 <li data-role=list-divider><h3 align=center>구매팀</h3>
 <li><a href="#">구매/이훈[팀장]/5502</a>
@@ -146,10 +152,15 @@ a#MOVE_TOP_BTN {
 <li><a href="#">재무관리/박배훈[차장]/6872</a>
 <li><a href="#">재무관리/서희정[과장]/6605</a>
 <li><a href="#">재무관리/성광운[과장]/5520</a>
+<li><a href="#">재무관리/김영호[과장]/5562</a>
 <li><a href="#">재무관리/조혜민[대리]/5728</a>
+<li><a href="#">재무관리/박문국[대리]/5750</a>
+<li><a href="#">재무관리/윤인혁[대리]/7995</a>
 
 <li data-role=list-divider><h3 align=center>사업기획팀</h3>
+<li><a href="#">사업기획/정현식[차장]/6770</a>
 <li><a href="#">사업기획/이예균[차장]/5781</a>
+
 
 <li data-role=list-divider><h3 align=center>IT지원실</h3>
 <li><a href="#">IT지원/원기효[팀장]/5521</a>
@@ -159,6 +170,8 @@ a#MOVE_TOP_BTN {
 <li><a href="#">IT지원/권이순[차장]/5509</a>
 <li><a href="#">IT지원/이정호[차장]/5056</a>
 <li><a href="#">IT지원/조민철[과장]/6606</a>
+<li><a href="#">IT지원/강인호[과장]/5569</a>
+<li><a href="#">IT지원/박용성[대리]/5237</a>
 
 <li data-role=list-divider><h3 align=center>항공종합서비스</h3>
 <li><a href="#">항공종합/강은숙/6574</a>
@@ -183,18 +196,18 @@ a#MOVE_TOP_BTN {
                                  
 <script>
     function exitToast() {
-        var t = $('<div class="ui-loader ui-overlay-shadow ui-body-e ui-corner-all" style="font-family:Dosis;font-size:large">한번 더누르시면 종료됩니다</div>');
+        var t = $('<div class="ui-loader ui-overlay-shadow ui-body-e ui-corner-all" style="font-family:Dosis;font-size:15px">한번 더누르시면 종료됩니다</div>');
         t.css({
             display: "block",
-            background: "gray",
+            background: "black",
             color: "white",
             opacity: .75,
             position: "fixed",
-            padding: "1px",
-            width: "170px",
+            padding: "10px",
+            width: "190px",
             "text-align": "center",
             left: ($(window).width() - 180) / 2,
-            top: $(window).height() - 80
+            top: $(window).height() - 150
         });
         var e = function() {
             $(this).remove()
