@@ -11,12 +11,10 @@ img { max-width: 100%; }
 
 
 body, html {  }
-body { background: #fff; font-family: sans-serif; }
-#outbox { margin: 0 auto; padding: 0;  }
-#inbox { margin: 0 auto; padding: 0; }
-#wrap {  width: 100%; margin: 0 auto; background: #E7E6E8; }
+body { background: #fff; font-family: sans-serif;}
+#wrap {  width: 100%; margin: 0 auto; background: #333; }
 
-header { height: 3em;  padding: 0 0 0 0em; line-height: 3em;  overflow: hidden; border-bottom: 1px solid #cacaca; background: #333;  color:#111;}
+header { height: 2.3em;  padding: 0 0 0 0em; line-height: 2.3em;  overflow: hidden; border-bottom: 1px solid #cacaca; background: #333;  color:#111;}
 
 
 a:link {text-decoration: none; color: #333;}
@@ -24,43 +22,57 @@ a:visited {text-decoration: none; color: #333;}
 a:active {text-decoration: none; color: #333; }
 a:hover {text-decoration: none; color: #333; }
 
-/* 아이콘 이미지4 */
-.thumbicon_list {  width: 100%;  clear: both; margin: 0 auto; overflow: hidden;  font-size: 0.85em; 
-padding-bottom: 1%; margin-top: 2%; }
-.thumbicon_list li { float: left; width: 25%; text-align: center; margin: 0%; overflow: hidden; 
-  padding: 0.5em 0em 0.7em 0em ; white-space: nowrap; text-overflow: ellipsis; }
-.thumbicon_list li  img {  width: 85%; padding: 25% 2% 25% 2%; display: block; margin: 0 auto;  
-border-radius: 5px; box-shadow: 0px 0.2px 0.5px 0.2px #cacaca;  background: #fff; margin-bottom: 0.35em; }
-.thumbicon_list a:link {color: #777;}
-.thumbicon_list a:visited {color: #777;}
-
 
 /* 메인 리스트 */
 .main_list {  width: 100%;  clear: both; margin: 0 auto;  background: #fff;}
-.main_list li { height:3.6em; line-height: 3.6em; overflow: hidden; border-bottom: 1.5px solid #cacaca;
- padding-left: 1em; background: url(images/arrow.png) no-repeat 97% center; background-size: auto 0.9em; }
+.main_list li { height:2.8em; line-height: 2.8em; overflow: hidden; border-bottom: 1.5px solid #cacaca;
+ padding-left: 1em; background: url(feedback/images/arrow.png) no-repeat 97% center; background-size: auto 0.9em; }
 .main_list img { vertical-align: middle; margin-right: 1em;  height: 2em; }
 
  
 
-/* 반응형 설정 시작 */
 
-@media screen and (min-width:1440px) {
 
-  
-  #outbox { padding: 3em 0 4em 0; }
-  #inbox { width: 500px; background: #222; padding: 40px 30px 20px 30px; border-radius: 30px; 
-  box-shadow: 1px 1px 2px 1px #777; }
-  #phone_speaker { display: block; width: 70px; height: 7px; border-radius: 2px; background: white; margin: 0 auto; margin-bottom: 30px; }
-  #phone_button { display: block; width: 70px; height: 35px; border-radius: 10px; background: white; margin: 0 auto; margin-top: 20px; }
-  #wrap {  }  
-  #content { padding-bottom: 0; }
-  header { display: block; }  
-  footer { }
-  .thumb_list li  { }
-  #bottom_navi { display: none; }
 
-  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
